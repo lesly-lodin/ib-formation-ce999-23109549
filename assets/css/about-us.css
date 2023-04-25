@@ -1,0 +1,92 @@
+/* Sélecteurs de base : tag */
+body {
+    /* Sans transparence */
+    background-color: antiquewhite;
+    background-color: rgb(235, 223, 197);
+    background-color: hsl(120,50%,85%);
+    background-color: #ebdfc5;
+    /* Avec transparence */
+    background-color: rgba(235, 223, 197, 0.485);
+    background-color: hsla(120,50%,50%,0.35);
+    background-color: #ebdfc57f;
+    /* Dégradés */
+    background-image: linear-gradient(to bottom right, #c2f, #f0f,#00f, #555, #ff0);
+    background-image: radial-gradient(#0f0, #0ff);
+    /* Images */
+    background-image: url(../pics/bg/tile.jpg);
+    background-repeat: repeat-y;
+    /* Raccourci - Images multiples */
+    background: url(../pics/bg/book.png) no-repeat top right fixed, url(../pics/bg/tile.jpg) repeat;
+}
+
+h1 {
+    color: red;
+}
+
+h2, h3 {
+    color: brown;
+}
+
+img {
+    height: 100px; /* unité absolue */
+}
+
+table {
+    width: 100%; /* unité relative */
+}
+
+/* Pseudo-classes */
+a:link, a:visited, a:active {
+    color:#000;
+}
+
+a:hover {
+    color: #f0f;
+}
+
+figure img:nth-of-type(2) {
+    /* Détail */
+    border-style: solid;
+    border-color: #000;
+    border-width: 3px;
+    /* Simple */
+    border: dashed #555 5px;
+}
+
+thead, tfoot {
+    background: #aaf;
+}
+
+tbody tr:nth-of-type(2n+1) {
+    background: #fff; /* odd = 2n+1 / even = 2n */
+}
+
+tbody tr:nth-of-type(even) {
+    background: #ccf;
+}
+
+tbody tr:hover {
+    background: #ffd700;
+}
+
+/* Sélecteurs de base : class */
+.shadow {
+    text-shadow: 2px 3px 3px gray;
+}
+
+/* Sélecteurs hiérarchiques */
+p > em {
+   background: #ffff0055; /* parent > enfant */
+}
+
+li li li {
+    font-weight: bold; /* ascendant descendant */
+}
+
+h2 + h3 {
+    color: #00f; /* frère + soeur contigu */
+}
+
+img ~ figcaption {
+    color: #00f; /* frère ~ soeur non contigu */
+}
