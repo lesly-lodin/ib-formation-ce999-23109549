@@ -11,8 +11,8 @@ Dates : 24 au 28 avril 2023
 **1ère Partie - Définitions et usages du HTML et du CSS**
 - [x] Rappels HTML/CSS
 - [x] Nouveautés HTML5/CSS3
-- [ ] Le balisage HTML5
-- [ ] CSS3
+- [x] Le balisage HTML5
+- [x] CSS3
 - [ ] Vidéo et Audio
 - [ ] Les formulaires
 

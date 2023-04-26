@@ -20,6 +20,19 @@ body {
     min-height: 100vh;
 }
 
+h2, h3 {
+    font-family: Valkyrie, cursive;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
 /* INDEX - Header */
 #en-tete {
     display: flex;
@@ -28,7 +41,7 @@ body {
 }
 
 #logo {
-    height: 8rem;
+    height: 10em;
     margin: 1rem;
 }
 
@@ -43,3 +56,97 @@ body {
     margin: 1rem 2rem 3rem 4rem; /* 4 valeurs = top, right, bottom, left */
     margin: 0 1rem;
 }
+
+/* INDEX - Navbar */
+#menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#menu a {
+    font-family: Valkyrie, cursive;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #000;
+    border: transparent solid 0.25rem;
+    border-radius: 1rem 0;
+    padding: .75rem;
+    display: block;
+    margin: .5rem 0;
+    transition: border 1s;
+}
+
+#menu a:hover {
+    border: #000 solid 0.25rem;
+    text-shadow: 0 0 1rem #fff;
+    box-shadow: 0 0 1rem #fff;
+    background: #ffffff7f;
+}
+
+/* INDEX - Carousel */
+#carousel {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#slide {
+    width: 80vw;
+}
+
+#goRight, #goLeft {
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+#goRight:hover, #goLeft:hover {
+    cursor: pointer;
+}
+
+/* INDEX - Books */
+#books {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.book {
+    width: 20rem;
+    border: #000 solid .25rem;
+    padding-bottom: 1rem;
+    background: #ffffff7f;
+    margin: 1rem;
+    /* Héritage */
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.book img {
+    width: 100%;
+}
+
+/* INDEX - Multimedia */
+#media {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+#media video {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
