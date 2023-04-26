@@ -28,7 +28,12 @@ h2, h3 {
 }
 
 img {
-    height: 100px; /* unité absolue */
+    height: 150px; /* unité absolue */
+}
+
+img:hover {
+    height: 200px;
+    opacity: 0.5;
 }
 
 table {

@@ -1,0 +1,58 @@
+body {
+    height: 200vh;
+}
+
+div[id^=box] {
+    border: #000 solid .25rem;
+    width: 20rem;
+    height: 20rem;
+    background: #fff;
+}
+
+div.child {
+    border: #000 solid .25rem;
+    width: 6rem;
+    height: 6rem;
+    float: right;
+}
+
+#abs {
+    border: #000 solid .25rem;
+    border-radius: 2rem ;
+    width: 4rem;
+    height: 4rem;
+    background: #ff0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#box1 {
+    position: static; /* par défaut */
+    top: 0;
+    right: 0;
+}
+
+#box2 {
+    position: relative;
+    top: 10rem;
+    left: 40rem;
+    overflow: auto;
+}
+
+#box3 {
+    position: absolute;
+    top: 5rem;
+    left: 5rem;
+}
+
+#box4 {
+    position: fixed;
+    top: 30rem;
+    right: -10rem;
+}
+
+#box5 {
+    position: sticky;
+    top: 0;
+}

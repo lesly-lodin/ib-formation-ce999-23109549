@@ -1,7 +1,5 @@
 ![Bien plus que des savoirs](https://static.ib-formation.fr/content/uploads/2022/06/17103530/cegos.png)
 
-# iB Formation
-
 ## Les fondamentaux du développement d'interfaces graphiques avec HTML5, CSS3 et JavaScript
 
 Réf. : CE999
