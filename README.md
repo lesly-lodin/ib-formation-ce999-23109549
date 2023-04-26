@@ -13,7 +13,7 @@ Dates : 24 au 28 avril 2023
 - [x] Nouveautés HTML5/CSS3
 - [x] Le balisage HTML5
 - [x] CSS3
-- [ ] Vidéo et Audio
+- [x] Vidéo et Audio
 - [ ] Les formulaires
 
 **2ème Partie - programmer avec JavaScript**
