@@ -1,0 +1,45 @@
+/* Directives CSS - à mettre toujours en haut */
+@font-face {
+    font-family: "Valkyrie";
+    src: url(../fonts/KaushanScript-Regular.otf);
+}
+
+/* RAZ comportement natif */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-valkyrie {
+    background: url(../pics/bg/valkyrie.jpg) fixed;
+    background-size: cover;
+}
+
+#content {
+    background: #ffffff7f;
+    min-height: 100vh;
+}
+
+/* INDEX - Header */
+#en-tete {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    height: 8rem;
+    margin: 1rem;
+}
+
+#title {
+    font-family: Valkyrie, cursive;
+    font-size: 5rem;
+    text-shadow: 0 0 1rem #fff; /* Halo blanc */
+    /* Raccourcis */
+    margin: 1rem; /* 1 valeur = top, right, bottom, left */
+    margin: 1rem 2rem; /* 2 valeurs = top/bottom, right/left */
+    margin: 1rem 2rem 3rem; /* 3 valeurs = top, right/left, bottom */
+    margin: 1rem 2rem 3rem 4rem; /* 4 valeurs = top, right, bottom, left */
+    margin: 0 1rem;
+}
