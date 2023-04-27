@@ -17,8 +17,8 @@ Dates : 24 au 28 avril 2023
 - [ ] Les formulaires
 
 **2ème Partie - programmer avec JavaScript**
-- [ ] Premières applications
-- [ ] Le langage
+- [x] Premières applications
+- [x] Le langage
 - [ ] Le modèle objet du JavaScript
 - [ ] Les Evènements
 - [ ] DOM Document Object Model

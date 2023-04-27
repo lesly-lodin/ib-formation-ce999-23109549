@@ -67,8 +67,47 @@ console.log(typeof r);
 console.log(typeof s);
 
 // *************************
-// Opérateurs arithmétiques
+// Variables composites ou tableaux
 // *************************
+
+let matrix = []; // tableau vide
+let matrix2 = new Array();
+console.log(typeof matrix);
+console.log(typeof matrix2);
+let course = ['CE999', 5, true];
+course[3] = 'Développement HTML/CSS/JS';
+course[1] = 20;
+course.push('2023-04-24T09:30:00'); // ajout en fin de tableau
+course.unshift('Visio'); // ajout en début
+console.log(course.length);
+console.log(course);
+
+// *************************
+// Objets globaux : String, Number + Math, Boolean, Array, Function, RegExp,..., Object
+// *************************
+
+// String
+let p1 = 'Hugo', p2 = new String('Hugo');
+console.log(p1 == p2); // compare les valeurs
+console.log(p1 === p2); // compare les valeurs ET le type
+console.log(p2.toUpperCase());
+console.log('Hello World!'.toLowerCase());
+
+// Math - Non instanciable
+console.log(Math.PI);
+console.log(Math.round(1234.56));
+console.log(Math.ceil(1.0000009)); // entier sup = 2
+console.log(Math.floor(1.999999998)); // entier inf = 1
+console.log(1234.5678.toFixed(2));
+console.log(Math.random());
+console.log(Math.min(1, 20, 654, -12));
+
+
+
+
+
+
+
 
 
 
