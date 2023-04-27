@@ -83,7 +83,7 @@ console.log(course.length);
 console.log(course);
 
 // *************************
-// Objets globaux : String, Number + Math, Boolean, Array, Function, RegExp,..., Object
+// Objets globaux : String, Number + Math, Boolean, Date, Array, Function, RegExp,..., Object
 // *************************
 
 // String
@@ -102,14 +102,90 @@ console.log(1234.5678.toFixed(2));
 console.log(Math.random());
 console.log(Math.min(1, 20, 654, -12));
 
+// Date - Timestamp (à partir 01/01/1970)
+console.log(new Date());
+console.log(new Date(-123456789)); // recule en ms
+console.log(new Date(123456789)); // avance en ms
+console.log(new Date(1998, 6, 12, 22, 45, 1)); // index des mois commence à 0
+console.log(new Date('7/2/2000 22:45:2'));
+console.log(new Date('December 18, 2022 20:45:03 GMT+0200'));
+console.log(new Date('2018-07-15T12:45:04')); // format universel ISO
 
+// *************************
+// Structures de contrôle - Conditions
+// *************************
 
+// if
+let today = new Date();
 
+if (today.getDay() > 0 && today.getDay() < 6) {
+    console.info('Jour de semaine');
+} else {
+    console.warn('Week-end');
+}
 
+let afterTomorrow = new Date();
+afterTomorrow.setDate(afterTomorrow.getDate() + 2);
 
+if (afterTomorrow.getDay() > 0 && afterTomorrow.getDay() < 6) {
+    console.info('Jour de semaine');
+} else {
+    console.warn('Week-end');
+}
 
+// switch
+let weekDay = today.getDay(); // 4 pour jeudi
+switch (weekDay) {
+    case 0:
+        console.info('Fais-toi plaisir !');
+        break;
+    case 1:
+    case 4:
+        console.info('Pizza');
+        break;
+    case 2:
+    case 5:
+        console.info('Hamburger');
+        break;
+    case 3:
+        console.info('Broccoli');
+        break;
+    default:
+        console.info('Resto');
+    // break;
+}
 
+// *************************
+// Structures itératives - Boucles
+// *************************
 
+let contacts = [
+    'Thi Huyen',
+    'Hugo',
+    'Mathieu',
+    'Lesly'
+];
 
+// while
+let count = 0;
+while (count < contacts.length) {
+    console.log(contacts[count])
+    count++;
+}
 
+// do...while
+count = 0
+do {
+    console.info(contacts[count]);
+    count++;
+} while (count < contacts.length);
 
+// for
+for (let x = 0; x < contacts.length; x++) {
+    console.info(contacts[x]);
+}
+
+// foreach
+contacts.forEach(contact => {
+    console.info(contact);
+});

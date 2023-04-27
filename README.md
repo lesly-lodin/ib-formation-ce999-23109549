@@ -4,7 +4,7 @@
 
 Réf. : CE999
 
-Dates : 24 au 28 avril 2023
+Dates : 24 Avril 2023 au 28 Avril 2023
 
 ## Contenu
 
@@ -19,9 +19,9 @@ Dates : 24 au 28 avril 2023
 **2ème Partie - programmer avec JavaScript**
 - [x] Premières applications
 - [x] Le langage
-- [ ] Le modèle objet du JavaScript
+- [x] Le modèle objet du JavaScript
 - [ ] Les Evènements
-- [ ] DOM Document Object Model
+- [x] DOM Document Object Model
 - [ ] Gestion des formulaires
 - [ ] Interaction avec les feuilles de style CSS
 - [ ] AJAX - Asynchronous JavaScript and XML
