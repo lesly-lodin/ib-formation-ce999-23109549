@@ -1,3 +1,6 @@
+/* Police en-ligne */
+@import url('https://fonts.googleapis.com/css2?family=Braah+One&family=Sigmar&display=swap');
+
 /* Directives CSS - à mettre toujours en haut */
 @font-face {
     font-family: "Valkyrie";
@@ -18,6 +21,11 @@ body {
 #content {
     background: #ffffff7f;
     min-height: 100vh;
+}
+
+h1 {
+    font-family: 'Sigmar display', cursive;
+    text-align: center;
 }
 
 h2, h3 {
@@ -136,4 +144,32 @@ h3 {
 
 #media video {
     width: 100%;
+}
+
+/* TEAM - Files */
+#file {
+    width: 80vw;
+    margin: 2rem auto;
+    display: inline-box;
+}
+
+#file .row label {
+    display: inline-block;
+    width: 25%;
+    text-align: right;
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+/* Grid layout */
+#file2 {
+    width: 80vw;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: 25% 1fr;
+}
+
+#ext1, #ext2 {
+    width: 80vw;
+    margin: 2rem;
 }

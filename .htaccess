@@ -1,0 +1,7 @@
+# APACHE ONLY !
+
+# Sécurité - désactive l'exploration des dossiers
+Options All -Indexes
+
+# Gére les erreurs HTTP
+ErrorDocument 404 /my-project/errors/404.html
