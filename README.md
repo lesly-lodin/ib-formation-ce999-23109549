@@ -28,7 +28,7 @@ Dates : 24 Avril 2023 au 28 Avril 2023
 - [ ] jQuery - "Write less, do more"
 
 **3ème Partie - Utiliser les API fondamentales du HTML5**
-- [ ] Vue d’ensemble des APIs
+- [x] Vue d’ensemble des APIs
 - [ ] Dessiner en HTML
 - [ ] La communication en HTML5
 - [ ] La géolocalisation

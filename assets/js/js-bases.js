@@ -111,6 +111,15 @@ console.log(new Date('7/2/2000 22:45:2'));
 console.log(new Date('December 18, 2022 20:45:03 GMT+0200'));
 console.log(new Date('2018-07-15T12:45:04')); // format universel ISO
 
+// Boolean
+let bool1 = true; // ou false = Boolean
+let bool2 = 'toto'; // équivaut à true
+let bool3 = ''; // équivaut à false
+let bool4 = 123; // équivaut à true
+let bool5 = 0; // équivaut à false
+let bool6 = null; // équivaut à false
+let bool7 = undefined; // équivaut à false
+
 // *************************
 // Structures de contrôle - Conditions
 // *************************
@@ -132,6 +141,15 @@ if (afterTomorrow.getDay() > 0 && afterTomorrow.getDay() < 6) {
 } else {
     console.warn('Week-end');
 }
+
+// opérateur ternaire
+if (today.getDay() === 5) {
+    console.info('Bon week-end');
+} else {
+    console.info('Bon courage');
+}
+
+console.info(today.getDay() === 5 ? 'Bon week-end TERNAIRE' : 'Bon courage TERNAIRE');
 
 // switch
 let weekDay = today.getDay(); // 4 pour jeudi
