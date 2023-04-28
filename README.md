@@ -14,17 +14,17 @@ Dates : 24 Avril 2023 au 28 Avril 2023
 - [x] Le balisage HTML5
 - [x] CSS3
 - [x] Vidéo et Audio
-- [ ] Les formulaires
+- [x] Les formulaires
 
 **2ème Partie - programmer avec JavaScript**
 - [x] Premières applications
 - [x] Le langage
 - [x] Le modèle objet du JavaScript
-- [ ] Les Evènements
+- [x] Les Evènements
 - [x] DOM Document Object Model
-- [ ] Gestion des formulaires
-- [ ] Interaction avec les feuilles de style CSS
-- [ ] AJAX - Asynchronous JavaScript and XML
+- [x] Gestion des formulaires
+- [x] Interaction avec les feuilles de style CSS
+- [x] AJAX - Asynchronous JavaScript and XML
 - [ ] jQuery - "Write less, do more"
 
 **3ème Partie - Utiliser les API fondamentales du HTML5**
@@ -32,4 +32,4 @@ Dates : 24 Avril 2023 au 28 Avril 2023
 - [ ] Dessiner en HTML
 - [ ] La communication en HTML5
 - [ ] La géolocalisation
-- [ ] Stockage
+- [x] Stockage
